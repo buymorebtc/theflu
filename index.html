@@ -14,7 +14,7 @@ body,td,th {
 	font-weight: 400;
 	color: rgba(255,255,255,1);
     text-shadow: 2px 2px px #000000;
-	-webkit-font-smoothing: antialiased !important;
+    -webkit-font-smoothing: antialiased !important;
 }
 html {
 	height: 100%;
@@ -26,16 +26,18 @@ html {
 	background-position: center;
 }
 .main {
-	width: auto;
+	max-width: 500px;
+    text-justify: auto
 	height: auto;
-	text-align: center;
+	text-align: justify;
+    text-justify: auto
 	margin-top: 15%;
 }
 h1 {
 	font-size: 72px;
     text-shadow: 2px 2px 10px #000000;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width:600px) {
 	body {
 		font-size: 14px;
 	}
